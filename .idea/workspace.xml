@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="commit dropdowns first">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/dropdowns_verification/TC_5_Selecting_state_from_dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/dropdowns_verification/SelectingStateFromDropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/dropdowns_verification/SelectingStateFromDropdownTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
     "Application.SeleniumTest.executor": "Run",
     "Maven.UI_Test [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.SelectingStateFromDropdownTest.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.tearDown.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.test.executor": "Run",
     "TestNG.TC_5_Selecting_state_from_dropdown.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -76,9 +79,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectingStateFromDropdownTest.tearDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
+      <option name="METHOD_NAME" value="tearDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectingStateFromDropdownTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SelectingStateFromDropdownTest" />
+        <item itemvalue="TestNG.SelectingStateFromDropdownTest.tearDown" />
+        <item itemvalue="TestNG.SelectingStateFromDropdownTest.test" />
         <item itemvalue="Application.SeleniumTest" />
       </list>
     </recent_temporary>
@@ -100,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725551264027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit dropdowns first">
+      <option name="closed" value="true" />
+      <created>1725553123777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725553123777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
