@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/day1_selenium_intro/SeleniumTest.java" afterDir="false" />
+    <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="commit dropdowns first">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/dropdowns_verification/TC_5_Selecting_state_from_dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +39,13 @@
     "Application.SeleniumTest.executor": "Run",
     "Maven.UI_Test [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TC_5_Selecting_state_from_dropdown.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SelectingStateFromDropdownTest">
     <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.day1_selenium_intro.SeleniumTest" />
       <module name="UI_Test" />
@@ -63,8 +59,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectingStateFromDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelectingStateFromDropdownTest" />
         <item itemvalue="Application.SeleniumTest" />
       </list>
     </recent_temporary>
@@ -78,7 +92,21 @@
       <option name="presentableId" value="Default" />
       <updated>1724013191636</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit everything">
+      <option name="closed" value="true" />
+      <created>1725551264027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725551264027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit everything" />
+    <MESSAGE value="commit dropdowns first" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit dropdowns first" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
