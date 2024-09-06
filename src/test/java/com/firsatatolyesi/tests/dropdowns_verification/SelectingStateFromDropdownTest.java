@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
@@ -32,10 +33,41 @@ public class SelectingStateFromDropdownTest {
 
 
     @Test
-    public void test(){
+    public void test1(){
 
-        //2. Go to http://practice.cybertekschool.com/dropdown
-        driver.get("http://practice.cydeo.com/dropdown");
+        //2. Go to https://practice.cydeo.com/dropdown
+        driver.get("https://practice.cydeo.com/dropdown");
+
+        Select stateDropDown = new Select(driver.findElement(By.xpath("//select[@id='state']")));
+
+        ////3. Select Illinois
+        stateDropDown.selectByVisibleText("Illinois");
+
+        ////4. Select Virginia
+        stateDropDown.selectByValue("VA");
+
+        ////5. Select California
+        stateDropDown.selectByIndex(5);
+
+        ////6. Verify final selected option is California.
+        String finalSelectedOption =  stateDropDown.getFirstSelectedOption().getText();
+
+        SoftAssert softAssert = new SoftAssert();
+
+        softAssert.assertEquals(finalSelectedOption, "California");
+
+        softAssert.assertAll();
+
+
+        ////Use all Select options. (visible text, value, index)
+
+    }
+
+    @Test
+    public void test2(){
+
+        //2. Go to https://practice.cydeo.com/dropdown
+        driver.get("https://practice.cydeo.com/dropdown");
 
         Select stateDropDown = new Select(driver.findElement(By.xpath("//select[@id='state']")));
 
@@ -52,12 +84,12 @@ public class SelectingStateFromDropdownTest {
         String finalSelectedOption =  stateDropDown.getFirstSelectedOption().getText();
 
         Assert.assertEquals(finalSelectedOption, "California");
+        Assert.assertTrue(finalSelectedOption.equals("California"));
 
 
         ////Use all Select options. (visible text, value, index)
 
     }
-
     @AfterMethod
     public void tearDown(){
 
