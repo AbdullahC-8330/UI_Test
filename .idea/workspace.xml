@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="dropdowns test2" />
+    <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="dropdowns test2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/JS_Alerts_Tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,9 @@
     "Application.SeleniumTest.executor": "Run",
     "Maven.UI_Test [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.JS_Alerts_Tasks.confirmationAlert.executor": "Run",
+    "TestNG.JS_Alerts_Tasks.executor": "Run",
+    "TestNG.JS_Alerts_Tasks.informationAlert.executor": "Run",
     "TestNG.SelectingStateFromDropdownTest.executor": "Run",
     "TestNG.SelectingStateFromDropdownTest.tearDown.executor": "Run",
     "TestNG.SelectingStateFromDropdownTest.test.executor": "Run",
@@ -47,7 +53,60 @@
     "onboarding.tips.debug.path": "C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SelectingStateFromDropdownTest">
+  <component name="RunManager" selected="TestNG.JS_Alerts_Tasks">
+    <configuration name="JS_Alerts_Tasks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JS_Alerts_Tasks.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="METHOD_NAME" value="confirmationAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JS_Alerts_Tasks.informationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="METHOD_NAME" value="informationAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectingStateFromDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
@@ -59,42 +118,6 @@
       <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
       <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectingStateFromDropdownTest.tearDown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
-      <option name="METHOD_NAME" value="tearDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectingStateFromDropdownTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,31 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectingStateFromDropdownTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JS_Alerts_Tasks" />
+        <item itemvalue="TestNG.JS_Alerts_Tasks.confirmationAlert" />
+        <item itemvalue="TestNG.JS_Alerts_Tasks.informationAlert" />
         <item itemvalue="TestNG.SelectingStateFromDropdownTest" />
         <item itemvalue="TestNG.SelectingStateFromDropdownTest.test1" />
-        <item itemvalue="TestNG.SelectingStateFromDropdownTest.test2" />
-        <item itemvalue="TestNG.SelectingStateFromDropdownTest.test" />
-        <item itemvalue="TestNG.SelectingStateFromDropdownTest.tearDown" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +195,17 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit everything" />
