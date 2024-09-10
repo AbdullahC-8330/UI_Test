@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="dropdowns test2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/JS_Alerts_Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/iframeTasks/IframeTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/JS_Alerts_Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/jsAlertTasks/JS_Alerts_Tasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,8 @@
     "Application.SeleniumTest.executor": "Run",
     "Maven.UI_Test [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.IframeTask.iframeTest (1).executor": "Run",
+    "TestNG.IframeTask.iframeTest.executor": "Run",
     "TestNG.JS_Alerts_Tasks.confirmationAlert.executor": "Run",
     "TestNG.JS_Alerts_Tasks.executor": "Run",
     "TestNG.JS_Alerts_Tasks.informationAlert.executor": "Run",
@@ -53,17 +56,53 @@
     "onboarding.tips.debug.path": "C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.JS_Alerts_Tasks">
+  <component name="RunManager" selected="TestNG.IframeTask.iframeTest">
+    <configuration name="IframeTask.iframeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.iframeTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.iframeTasks" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.iframeTasks.IframeTask" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IframeTask.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.iframeTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.iframeTasks" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.iframeTasks.IframeTask" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JS_Alerts_Tasks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,12 +114,12 @@
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
       <option name="METHOD_NAME" value="confirmationAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -93,48 +132,13 @@
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.JS_Alerts_Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
       <option name="METHOD_NAME" value="informationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectingStateFromDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectingStateFromDropdownTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.dropdowns_verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.dropdowns_verification" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.dropdowns_verification.SelectingStateFromDropdownTest" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IframeTask.iframeTest" />
+        <item itemvalue="TestNG.IframeTask.iframeTest (1)" />
         <item itemvalue="TestNG.JS_Alerts_Tasks" />
         <item itemvalue="TestNG.JS_Alerts_Tasks.confirmationAlert" />
         <item itemvalue="TestNG.JS_Alerts_Tasks.informationAlert" />
-        <item itemvalue="TestNG.SelectingStateFromDropdownTest" />
-        <item itemvalue="TestNG.SelectingStateFromDropdownTest.test1" />
       </list>
     </recent_temporary>
   </component>

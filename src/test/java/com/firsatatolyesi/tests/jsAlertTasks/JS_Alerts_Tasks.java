@@ -1,4 +1,4 @@
-package com.firsatatolyesi.tests;
+package com.firsatatolyesi.tests.jsAlertTasks;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Alert;
