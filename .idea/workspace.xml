@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="dropdowns test2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/iframeTasks/IframeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/windowsHandleTask/WindowsHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/JS_Alerts_Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/jsAlertTasks/JS_Alerts_Tasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +34,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SeleniumTest.executor": "Run",
-    "Maven.UI_Test [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.IframeTask.iframeTest (1).executor": "Run",
-    "TestNG.IframeTask.iframeTest.executor": "Run",
-    "TestNG.JS_Alerts_Tasks.confirmationAlert.executor": "Run",
-    "TestNG.JS_Alerts_Tasks.executor": "Run",
-    "TestNG.JS_Alerts_Tasks.informationAlert.executor": "Run",
-    "TestNG.SelectingStateFromDropdownTest.executor": "Run",
-    "TestNG.SelectingStateFromDropdownTest.tearDown.executor": "Run",
-    "TestNG.SelectingStateFromDropdownTest.test.executor": "Run",
-    "TestNG.SelectingStateFromDropdownTest.test1.executor": "Run",
-    "TestNG.SelectingStateFromDropdownTest.test2.executor": "Run",
-    "TestNG.TC_5_Selecting_state_from_dropdown.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UI_Test [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.IframeTask.iframeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IframeTask.iframeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JS_Alerts_Tasks.confirmationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JS_Alerts_Tasks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JS_Alerts_Tasks.informationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectingStateFromDropdownTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectingStateFromDropdownTest.tearDown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectingStateFromDropdownTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectingStateFromDropdownTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectingStateFromDropdownTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_5_Selecting_state_from_dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.IframeTask.iframeTest">
+}</component>
+  <component name="RunManager" selected="TestNG.WindowsHandle (1)">
     <configuration name="IframeTask.iframeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
@@ -93,16 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JS_Alerts_Tasks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowsHandle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,35 +109,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JS_Alerts_Tasks.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowsHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
-      <option name="METHOD_NAME" value="confirmationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JS_Alerts_Tasks.informationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowsHandle.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.jsAlertTasks.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.jsAlertTasks.JS_Alerts_Tasks" />
-      <option name="METHOD_NAME" value="informationAlert" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WindowsHandle (1)" />
+        <item itemvalue="TestNG.WindowsHandle" />
+        <item itemvalue="TestNG.WindowsHandle.test" />
         <item itemvalue="TestNG.IframeTask.iframeTest" />
         <item itemvalue="TestNG.IframeTask.iframeTest (1)" />
-        <item itemvalue="TestNG.JS_Alerts_Tasks" />
-        <item itemvalue="TestNG.JS_Alerts_Tasks.confirmationAlert" />
-        <item itemvalue="TestNG.JS_Alerts_Tasks.informationAlert" />
       </list>
     </recent_temporary>
   </component>
