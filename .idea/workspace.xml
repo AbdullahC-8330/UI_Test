@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4826dde3-8893-4cdf-8c93-5be40f158478" name="Changes" comment="dropdowns test2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/windowsHandleTask/WindowsHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/pages/HoverPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/pages/UploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/configurationProperty/ConfigTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/javaFaker/JavaFakerTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/registration/Successfull_Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/upload_actions_jsexecuter/HoverOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/upload_actions_jsexecuter/Scroll_Down_Up_With_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/upload_actions_jsexecuter/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/firsatatolyesi/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,74 +47,61 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.UI_Test [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.IframeTask.iframeTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.IframeTask.iframeTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JS_Alerts_Tasks.confirmationAlert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JS_Alerts_Tasks.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JS_Alerts_Tasks.informationAlert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectingStateFromDropdownTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectingStateFromDropdownTest.tearDown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectingStateFromDropdownTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectingStateFromDropdownTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectingStateFromDropdownTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_5_Selecting_state_from_dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SeleniumTest.executor": "Run",
+    "Maven.UI_Test [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.ConfigTasks.executor": "Run",
+    "TestNG.ConfigTasks.google_search_test.executor": "Run",
+    "TestNG.HoverOver.executor": "Run",
+    "TestNG.HoverOver.hover_over_test.executor": "Run",
+    "TestNG.HoverOver.setup.executor": "Run",
+    "TestNG.IframeTask.iframeTest (1).executor": "Run",
+    "TestNG.IframeTask.iframeTest.executor": "Run",
+    "TestNG.JS_Alerts_Tasks.confirmationAlert.executor": "Run",
+    "TestNG.JS_Alerts_Tasks.executor": "Run",
+    "TestNG.JS_Alerts_Tasks.informationAlert.executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest (1).executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest (2).executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest (3).executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest (4).executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest (5).executor": "Run",
+    "TestNG.JavaFakerTasks.fakerTest.executor": "Run",
+    "TestNG.Scroll_Down_Up_With_Actions.test.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.tearDown.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.test.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.test1.executor": "Run",
+    "TestNG.SelectingStateFromDropdownTest.test2.executor": "Run",
+    "TestNG.Successfull_Registration.executor": "Run",
+    "TestNG.Successfull_Registration.registration_test (1).executor": "Run",
+    "TestNG.Successfull_Registration.registration_test (2).executor": "Run",
+    "TestNG.Successfull_Registration.registration_test (3).executor": "Run",
+    "TestNG.Successfull_Registration.registration_test.executor": "Run",
+    "TestNG.TC_5_Selecting_state_from_dropdown.executor": "Run",
+    "TestNG.UploadTest (1).executor": "Run",
+    "TestNG.UploadTest.executor": "Run",
+    "TestNG.UploadTest.upload_test.executor": "Run",
+    "TestNG.WindowsHandle (1).executor": "Run",
+    "TestNG.WindowsHandle.executor": "Run",
+    "TestNG.WindowsHandle.test.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/a/IdeaProjects/UI_Test/src/main/java/firsatatolyesi/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.WindowsHandle (1)">
-    <configuration name="IframeTask.iframeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Scroll_Down_Up_With_Actions.test">
+    <configuration name="HoverOver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.iframeTasks.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.iframeTasks" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.iframeTasks.IframeTask" />
-      <option name="METHOD_NAME" value="iframeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IframeTask.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.iframeTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.iframeTasks" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.iframeTasks.IframeTask" />
-      <option name="METHOD_NAME" value="iframeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowsHandle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UI_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.HoverOver" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -109,33 +109,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsHandle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverOver.hover_over_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.HoverOver" />
+      <option name="METHOD_NAME" value="hover_over_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsHandle.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverOver.setup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.firsatatolyesi.tests.windowsHandleTask.*" />
+          <option name="PATTERN" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.windowsHandleTask" />
-      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.windowsHandleTask.WindowsHandle" />
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.HoverOver" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scroll_Down_Up_With_Actions.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.upload_actions_jsexecuter.Scroll_Down_Up_With_Actions" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -144,13 +163,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Successfull_Registration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firsatatolyesi.tests.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.firsatatolyesi.tests.registration" />
+      <option name="MAIN_CLASS_NAME" value="com.firsatatolyesi.tests.registration.Successfull_Registration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WindowsHandle (1)" />
-        <item itemvalue="TestNG.WindowsHandle" />
-        <item itemvalue="TestNG.WindowsHandle.test" />
-        <item itemvalue="TestNG.IframeTask.iframeTest" />
-        <item itemvalue="TestNG.IframeTask.iframeTest (1)" />
+        <item itemvalue="TestNG.Scroll_Down_Up_With_Actions.test" />
+        <item itemvalue="TestNG.Successfull_Registration" />
+        <item itemvalue="TestNG.HoverOver" />
+        <item itemvalue="TestNG.HoverOver.setup" />
+        <item itemvalue="TestNG.HoverOver.hover_over_test" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +263,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/day1_selenium_intro/SeleniumTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/configurationProperty/ConfigTasks.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/firsatatolyesi/tests/configurationProperty/ConfigTasks.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
